@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Resister</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="取り戻す">パスワードを取り戻す。</string>
+    <string name="ボタン">再設定</string>
+    <string name="アカウント登録">アカウント登録</string>
+    <string name="いかない">うまくいかない時はここへ</string>
+    <string name="h">アカウント登録</string>
+    <string name="j">うまくいかない時はこちらへ</string>
+</resources>
