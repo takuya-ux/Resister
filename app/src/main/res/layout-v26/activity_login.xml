@@ -123,7 +123,6 @@
         android:layout_marginBottom="44dp"
         android:text="@string/h"
         android:textAlignment="center"
-        android:textColor="#F44336"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/username"
