@@ -53,9 +53,10 @@
         android:layout_height="136dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="29dp"
-        android:layout_marginBottom="112dp"
+        android:layout_marginBottom="248dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -63,20 +64,6 @@
             android:layout_height="110dp"
             android:hint="住所の入力" />
     </com.google.android.material.textfield.TextInputLayout>
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="340dp"
-        android:layout_height="127dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="63dp"
-        android:layout_marginEnd="35dp"
-        android:layout_marginBottom="55dp"
-        android:text="支払い方法の選択？"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <Button
         android:id="@+id/button2"
@@ -86,7 +73,7 @@
         android:layout_marginTop="35dp"
         android:layout_marginEnd="79dp"
         android:layout_marginBottom="29dp"
-        android:text="購入"
+        android:text="購入(決済システムへのリンク）"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
